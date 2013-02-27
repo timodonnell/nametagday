@@ -1,0 +1,167 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: url('bg-blue-gradient.jpg') no-repeat center center;
+  background-color: #103fc3;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+h2.dates {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #FFF885;
+  font-size: 20px;
+  margin: 3px 0 5px;
+}
+
+div.top-page h1 {
+  font-size: 60px;
+  color: white;
+  word-spacing: -25px;
+}
+
+div.top-page {
+  position: absolute;
+  top: 23px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: #FFF885;
+}
+
+h2.sign-up {
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+div.nametag {
+  width: 400px;
+  height: 257px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -128px 0 0 -200px;
+}
+
+div.nametag-top {
+  background: url('nametag-top.png') no-repeat center top;
+  height: 70px;
+  width: 400px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+div.nametag-top h1 {
+  font-size: 41px;
+  padding: 3px 0 0 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.nametag-top h2 {
+  margin-top: -8px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+div.nametag-center {
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 158px;
+}
+
+div.email {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+#email {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  width: 340px;
+  padding: 5px;
+}
+
+.leader {
+  margin: 4px 10px 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: 11px;
+}
+
+#submit {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: hand; cursor: pointer;
+  padding: 5px;
+}
+
+#submit:hover {
+  background-color: #fffee8;
+  border: 1px solid #aaa;
+}
+
+#leader {
+  font-size: 12px;
+}
+
+div.nametag-bottom {
+  background: url('nametag-bottom.png') no-repeat center;
+  height: 29px;
+  width: 400px;
+}
+
+div.bottom-page {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  width:170px;
+  height:28px;
+}
+
+div.questions {
+  width: 400px;
+  margin-top: 4px;
+}
+
+div.questions h2 {
+  font-weight: normal;
+  font-size: 13px;
+  color: white;
+}
+
+div.twitter {
+  float: right;
+}

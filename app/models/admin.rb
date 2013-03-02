@@ -26,6 +26,7 @@ class Admin < ActiveRecord::Base
   @@per_page = 15
 
   attr_accessor  :password, :previous_password
+  attr_accessible :first_name, :last_name, :password, :password_confirmation, :previous_password
 
   validates :first_name,  :length => {:within => 2..50}
   validates :last_name,  :length => {:within => 2..50}
